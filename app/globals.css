@@ -22,5 +22,203 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Figtree, Urbanist, Nunito, sans-serif;
+}
+
+.headerTitle {
+  font-family: var(--font-figtree);
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.headerSpan {
+  font-family: var(--font-figtree);
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.heroTitle {
+  font-family: var(--font-urbanist);
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 25px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.heroItem {
+  font-family: var(--font-figtree);
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 22px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.privacyPolicy {
+  font-family: var(--font-figtree);
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 12px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.copyRightText {
+  font-family: var(--font-nunito);
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 10px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.getStartedButtonText {
+  font-family: var(--font-urbanist);
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.buttonHelperText {
+  font-family: var(--font-figtree);
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  leading-trim: NONE;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.headerTitleDesktop {
+  font-family: Figtree;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 22px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.headerSpanDesktop {
+  font-family: Figtree;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 22px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.menuDesktop {
+  font-family: Figtree;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #a9a9a9;
+}
+
+.heroBannerTitleDesktop {
+  font-family: Urbanist;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 35px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.heroBannerItemDesktop {
+  font-family: Figtree;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 22px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.getStartedButtonTextDesktop {
+  font-family: Figtree;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.getStartedButtonHelperTextDesktop {
+  font-family: Figtree;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  leading-trim: NONE;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tncTextDesktop {
+  font-family: Figtree;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 12px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #ababab;
+}
+
+.copyRightTextDesktop {
+  font-family: Figtree;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 10px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #ababab;
 }

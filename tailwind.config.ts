@@ -14,8 +14,8 @@ const config: Config = {
         darkBg: "#0a0a0a",
       },
       fontFamily: {
-        figtree: ['var(--font-figtree)'],
-        urbanist: ['var(--font-urbanist)'],
+        figtree: "var(--font-figtree)",
+        urbanist: "var(--font-urbanist)",
       },
     },
   },

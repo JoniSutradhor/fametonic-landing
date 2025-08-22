@@ -1,18 +1,24 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import { Figtree, Urbanist } from "next/font/google";
+import { Figtree, Urbanist, Nunito } from "next/font/google";
 
 const figtree = Figtree({
   subsets: ["latin"],
   variable: "--font-figtree",
-  display: "swap",
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 const urbanist = Urbanist({
   subsets: ["latin"],
   variable: "--font-urbanist",
-  display: "swap",
+  weight: ["400", "500", "600", "700", "800"],
+});
+
+const nunito = Nunito({
+  subsets: ["latin"],
+  variable: "--font-nunito",
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
@@ -28,12 +34,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Urbanist:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        ></link>
       </head>
-      <body className={`${figtree.variable} ${urbanist.variable}`}>
+      <body className={`${figtree.variable} ${urbanist.variable} font-figtree`}>
         {children}
       </body>
     </html>
