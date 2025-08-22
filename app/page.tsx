@@ -110,8 +110,8 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-3">
               <p className="tncTextDesktop">
-                By clicking "Get Started", you agree with Terms and Conditions,
-                Privacy Policy, Subscription Terms
+                {`By clicking "Get Started", you agree with Terms and Conditions,
+                Privacy Policy, Subscription Terms`}
               </p>
               <p className="copyRightTextDesktop">
                 Fametonic 2025 ©All Rights Reserved.
@@ -149,14 +149,17 @@ export default function Home() {
               </div>
               <div className="heroItem flex gap-2.5">
                 <p className="flex items-center">✨</p>{" "}
-                <p>Learn from expert-led courses designed for aspiring influencers</p>
+                <p>
+                  Learn from expert-led courses designed for aspiring
+                  influencers
+                </p>
               </div>
             </div>
             <div className="w-full flex justify-center text-[#ABABAB]">
               <div className="w-[281px] flex flex-col items-center justify-center gap-[19px]">
                 <p className="privacyPolicy">
-                  By clicking "Get Started", you agree with Terms and
-                  Conditions, Privacy Policy, Subscription Terms
+                  {`By clicking "Get Started", you agree with Terms and
+                  Conditions, Privacy Policy, Subscription Terms`}
                 </p>
                 <p className="copyRightText">
                   Fametonic 2025 ©All Rights Reserved.
